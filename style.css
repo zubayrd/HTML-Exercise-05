@@ -1,0 +1,58 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin-top: 75px;
+  background-color: #f9f9f9;
+}
+
+.about {
+  text-align: center;
+}
+
+main{
+  max-width: 800px;
+}
+
+.blog-post {
+  padding: 20px;
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: #2c3e50;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 14px;
+  color: #2c3e50;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
